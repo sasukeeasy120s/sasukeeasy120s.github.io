@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    :root {
+      --text: #111;
+      --accent: #000;        /* left border color */
+      --bg: #fff;
+      --muted: #444;
+    }
+
+    html, body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: Georgia, "Times New Roman", Times, serif; /* classic look */
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .page {
+      max-width: 780px;
+      margin: 32px auto;
+      padding: 0 18px;
+      border-left: 4px solid var(--accent);
+    }
+
+    h1, h2 {
+      margin: 0 0 8px 0;
+      line-height: 1.25;
+    }
+
+    h1 {
+      font-size: 2.2rem;   /* big main title */
+      font-weight: 700;
+      margin-top: 4px;
+      margin-bottom: 22px;
+    }
+
+    h2 {
+      font-size: 1.55rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-top: 26px;
+      margin-bottom: 8px;
+    }
+
+    p {
+      margin: 0 0 18px 0;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+
+    ul, ol {
+      margin: 0 0 18px 22px;
+    }
+
+    li { margin: 6px 0; }
+
+    /* optional: make it print nicely for teachers */
+    @media print {
+      .page { margin: 0; max-width: none; border-left-color: #000; }
+      a { color: #000; text-decoration: none; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page" role="main">
+    <!-- Page Title -->
+    <h1>About Me</h1>
+
+    <!-- Introduction -->
+    <section aria-labelledby="intro-heading">
+      <h2 id="intro-heading">Introduction</h2>
+      <p>
+        Hi, I’m <strong>Cole MG</strong>, a Grade 11 student from Canada.
+        I’m interested in <em>Photography, Computer engineering and sciences.</em>. I enjoy
+        learning by trying new things and following instructions.
+      </p>
+    </section>
+
+    <!-- Course Information -->
+    <section aria-labelledby="course-heading">
+      <h2 id="course-heading">Course Information</h2>
+      <p>
+        I am taking <strong>Communications Technology</strong> in <strong> 2026</strong>, Semester <strong>2</strong>.
+        <!-- Example:
+        I am taking "Computer Science" in Year 2026, Semester 2.
+        -->
+      </p>
+    </section>
+
+    <!-- Hopes and Expectations -->
+    <section aria-labelledby="hopes-heading">
+      <h2 id="hopes-heading">Hopes and Expectations</h2>
+      <p>
+        In this course, I hope to strengthen my <strong>HTML/CSS/JavaScript</strong> skills,
+        improve my ability to plan projects, and collaborate effectively. By the end, I want to
+        have a small portfolio that shows what I can do.
+      </p>
+    </section>
+
+    <!-- Interests and Hobbies -->
+    <section aria-labelledby="interests-heading">
+      <h2 id="interests-heading">Interests and Hobbies</h2>
+      <ul>
+        <li>Photography</li>
+        <li>Music</li>
+        <li>TV</li>
+        <li>Video Games</li>
+      </ul>
+    </section>
+
+  
+      </ol>
+    </section>
+  </main>
+</body>
+</html>
