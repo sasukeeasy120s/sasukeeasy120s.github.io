@@ -1,87 +1,48 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-            background-color: #f4f4f4;
-        }
+<title>About Me</title> <style> :root { --text: #111; --accent: #000; /* left border color */ --bg: #fff; --muted: #444; } html, body { background: var(--bg); color: var(--text); font-family: Georgia, "Times New Roman", Times, serif; /* classic look */ line-height: 1.6; margin: 0; padding: 0; } .page { max-width: 780px; margin: 32px auto; padding: 0 18px; border-left: 4px solid var(--accent); } h1, h2 { margin: 0 0 8px 0; line-height: 1.25; } h1 { font-size: 2.2rem; /* big main title */ font-weight: 700; margin-top: 4px; margin-bottom: 22px; } h2 { font-size: 1.55rem; font-weight: 700; color: var(--text); margin-top: 26px; margin-bottom: 8px; } p { margin: 0 0 18px 0; color: var(--muted); font-size: 1rem; } ul, ol { margin: 0 0 18px 22px; } li { margin: 6px 0; } /* optional: make it print nicely for teachers */ @media print { .page { margin: 0; max-width: none; border-left-color: #000; } a { color: #000; text-decoration: none; } } </style>
 
-        header {
-            background: #222;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
+About Me
+<!-- Introduction -->
+<section aria-labelledby="intro-heading">
+  <h2 id="intro-heading">Introduction</h2>
+  <p>
+    Hi, I’m <strong>Cole MG</strong>, a Grade 11 student from Canada.
+    I’m interested in <em>Photography, Computer engineering and sciences.</em>. I enjoy
+    learning by trying new things and following instructions.
+  </p>
+</section>
 
-        section {
-            background: white;
-            padding: 20px;
-            margin: 20px 0;
-            border-radius: 8px;
-        }
+<!-- Course Information -->
+<section aria-labelledby="course-heading">
+  <h2 id="course-heading">Course Information</h2>
+  <p>
+    I am taking <strong>Communications Technology</strong> in <strong> 2026</strong>, Semester <strong>2</strong>.
+    <!-- Example:
+    I am taking "Computer Science" in Year 2026, Semester 2.
+    -->
+  </p>
+</section>
 
-        h2 {
-            color: #333;
-        }
+<!-- Hopes and Expectations -->
+<section aria-labelledby="hopes-heading">
+  <h2 id="hopes-heading">Hopes and Expectations</h2>
+  <p>
+    In this course, I hope to strengthen my <strong>HTML/CSS/JavaScript</strong> skills,
+    improve my ability to plan projects, and collaborate effectively. By the end, I want to
+    have a small portfolio that shows what I can do.
+  </p>
+</section>
 
-        .project {
-            margin-bottom: 15px;
-        }
-    </style>
-</head>
+<!-- Interests and Hobbies -->
+<section aria-labelledby="interests-heading">
+  <h2 id="interests-heading">Interests and Hobbies</h2>
+  <ul>
+    <li>Photography</li>
+    <li>Music</li>
+    <li>TV</li>
+    <li>Video Games</li>
+  </ul>
+</section>
 
-<body>
 
-    <header>
-        <h1>My Portfolio</h1>
-        <p>Welcome to my personal webpage!</p>
-    </header>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! My name is _____. I am a Grade 11 student who is passionate about _____.
-           I enjoy working on projects related to _____, and I’m always looking to improve
-           my skills in _____ and _____. '
-        (ai generated test)
-        </p>
-    </section>
-
-    <section id="skills">
-        <h2>Skills</h2>
-        <p>Here are some of the skills I bring to the table:</p>
-        <ul>
-            <li>HTML / CSS</li>
-            <li>Programming Languages (e.g., Python, JavaScript)</li>
-            <li>Teamwork & Communication</li>
-            <li>Design / Creativity</li>
-            <li>Problem-Solving</li>
-        </ul>
-    </section>
-
-    <section id="projects">
-        <h2>My Projects</h2>
-
-        <div class="project">
-            <h3>Project Title 1</h3>
-            <p>A short description of the project, what you built, and what you learned.</p>
-        </div>
-
-        <div class="project">
-            <h3>Project Title 2</h3>
-            <p>Another project description goes here.</p>
-        </div>
-
-    </section>
-
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: your.email@example.com</p>
-    </section>
-
-</body>
-</html>
-``
+  </ol>
+</section>
